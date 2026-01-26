@@ -1,0 +1,20 @@
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ['E',
+          'F',
+          'W',
+          'A',
+          'PLC',
+          'PLE',
+          'PLW',
+          'I',
+          'NPY201',
+          'NPY',
+          'UP',
+          'N',
+          'CPY']
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
